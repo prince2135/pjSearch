@@ -1,0 +1,56 @@
+html, body {
+    padding: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+.form-container {
+   align-items: center;
+    background-color: #ffffff;
+    color: white;
+    box-shadow: 0  rgba(0, 0 , 0 ,0.3) 0 7px 21px 0;
+}
+.input-cnt {
+    display: flex;
+}
+.input-cnt> i {
+
+    margin-bottom: 15px;
+    min-width: 50px;
+    padding: 10px;
+    background: #eee8e87c;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #000000;
+    box-shadow: 2px 1px 0px 1px black;
+    border-top: 1px solid black;
+   
+}
+#MainSearchEngine {
+text-align: center;
+font-size: 100%;
+min-height: 0px;
+height: 100%;
+width: 100%;
+}
+#A {
+    color: #0000ff;
+    text-decoration: bold;
+    margin-top: 20px;
+}
+#B {
+    color: #ff0000;
+    font-size: larger;
+}
+input {
+    margin-bottom: 15px;
+    width: 4000px;
+    padding: 10px;
+    background: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #000000;
+    box-shadow: 0px 1px 0px 1px black;
+    border-right: 1px solid black;
+}
+#right {
+    text-align: right;
+}
